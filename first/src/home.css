@@ -1,0 +1,255 @@
+/* workerprofile.css */
+
+/* General Styles */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+/* Navigation Bar Styles */
+nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px; /* Adjust the width as needed */
+  height: 40px; /* Maintain aspect ratio */
+  margin-right: 10px; /* Add spacing between the logo and the navigation links */
+}
+
+nav ul li {
+  margin-right: 40px;
+}
+nav ul li a:hover{
+  background: #686767;
+  border-radius: 60px;
+  padding: 10px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.company-name {
+  font-weight: bold;
+}
+
+.user-login-profile {
+  display: flex;
+  align-items: center;
+}
+
+.user-login-profile img {
+  color: #fefcfc;
+  width: 50px;
+  height: 40px;
+  border-radius: 80%;
+  margin-right: 5px;
+}
+
+
+/* Header Styles */
+
+header {
+  text-align: center;
+  padding: 50px;
+  color: #f1eded;
+  background-color: #f2f2f2;
+  background-image: url('./images/header.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+header h1 {
+  margin-top: 180px;
+  font-size: 90px;
+  font-weight: 450;
+
+}
+header p{
+  font-size: 20px;
+  margin: 0.5rem 0;
+}
+
+/* Search Section Styles */
+
+.search-section {
+  padding: 50px;
+  background-color: #fff;
+}
+
+
+.search-section h2 {
+  font-size: 65px;
+  font-weight: 450;
+  text-align: center;
+}
+
+.search-section form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.search-section .form-group1 {
+  margin-right: 20px;
+}
+
+.search-section label {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.search-section input[type='text'],
+.search-section select {
+  width: 250px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 60px;
+}
+
+.search-section button[type='submit'] {
+  margin-right: 10px;
+  margin-top: 0px;
+  padding: 21px 50px;
+  background-color: #141614;
+  color: #fff;
+  border: none;
+  border-radius: 60px;
+  cursor: pointer;
+}
+
+/* Featured Workers Section Styles */
+.carousel-arrow-prev {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  background-color: #d3caca;
+  color: #fff;
+  width: 40px;
+  height: 60px;
+  border-radius: 60px;
+  border: none;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.carousel-arrow-next {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  background-color: #d3caca;
+  color: #fff;
+  width: 40px;
+  height: 60px;
+  border-radius: 60px;
+  border: none;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.featured-workers-section {
+  padding: 50px;
+  background-color: #f2f2f2;
+  background-image: url('./images/feature.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.featured-workers-section h2 {
+  color: #fbf4f4;
+  text-align: center;
+  font-size: 65px;
+  font-weight: 450;
+}
+
+.featured-workers {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.worker-card {
+  width: 250px;
+  margin: 20px;
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.worker-card img {
+  width: 50px;
+  height: 160px;
+  border-radius: 100%;
+  margin-bottom: 10px;
+  
+  
+}
+
+.worker-card h3 {
+  margin: 0;
+  font-size: 25px;
+  font-weight: 550;
+}
+
+.worker-card p {
+  margin: 10px 0;
+  font-size: 20px;
+ 
+}
+
+.worker-card button {
+  padding: 15px 50px;
+  background-color: #080908;
+  color: #fff;
+  border: none;
+  border-radius: 60px;
+  cursor: pointer;
+  
+}
+
+/* Footer Styles */
+
+footer {
+  text-align: center;
+  padding: 5px;
+  background-color: #333;
+  color: #fff;
+}

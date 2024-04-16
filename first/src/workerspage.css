@@ -1,0 +1,121 @@
+
+/* workerspage.css */
+
+/* General Styles */
+
+.workers-page {
+  font-family: 'poppins', sans-serif;
+  text-align: center;
+  padding: 50px;
+}
+
+.workers-page h2 {
+  font-size: 55px;
+  font-weight: 450px;
+}
+.worker-section{
+  height: 1500px;
+}
+
+/* Search Section Styles */
+
+.search-section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.search-section1 input[type='text'],
+.search-section1 select {
+  width: 250px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 60px;
+  margin-right: 10px;
+}
+
+.search-section1 button {
+  padding: 10px 20px;
+  background-color: #141614;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border-radius: 60px;
+}
+
+/* Workers List Styles */
+
+.workers-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.workers-list li {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+}
+
+.worker-profile {
+  display: flex;
+  align-items: center;
+}
+
+.worker-photo img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.worker-details {
+  text-align: left;
+}
+
+.worker-details h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.worker-details p {
+  margin: 0;
+}
+
+.worker-details button {
+  padding: 10px 20px;
+  background-color: #080908;
+  color: #fff;
+  border: none;
+  border-radius: 60px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+  
+  .worker-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .worker-details h2 {
+    margin-bottom: 10px;
+  }
+  
+  .worker-details p {
+    margin-bottom: 5px;
+  }
+  
+  .worker-details button {
+    align-self: flex-end;
+  }
+  
